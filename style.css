@@ -1,0 +1,224 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.hero > div {
+  height: 100vh;
+}
+
+.right-side {
+  background-color: #222b32;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 50px;
+  align-items: start;
+  padding: 116px 110px;
+  font-weight: normal;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  object-position: top;
+}
+.menu-btn {
+  position: absolute;
+  left: 75px;
+  top: 30px;
+}
+
+.title {
+  font-size: 38px;
+}
+.btn-box {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+.explore-btn {
+  background-color: #9a6ed9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: 264px;
+  height: 61px;
+  font-size: 24;
+}
+
+.headline-container {
+  overflow-x: hidden;
+}
+
+.headline {
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+  font-size: 25px;
+}
+
+.membership-tool {
+  height: 676px;
+  width: 100%;
+  max-width: 466px;
+  font-size: 20px;
+  font: bold;
+}
+.membership-tool--body{
+  background-color: #fafafa;
+  color: #b6dcb3;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.membership-tool--head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 79.42px;
+}
+.membership-btn-solo, .membership-btn-team,.membership-btn-remote {
+  background-color: #b6dcb3;
+  border: 1px solid black;
+  color: black;
+  border-radius: 10px;
+  padding: 1px 10px;
+}
+
+
+.active-tab{
+  background-color: #222b32;
+  color: white;
+
+}
+
+.membership-hero {
+  width: 100%;
+  height: 164px;
+  background-color: #b6dcb3;
+  color: black;
+  border-radius: 10px;
+  padding: 30px 50px; 
+}
+
+.hero-title{
+  font-size: 34px;
+  font: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text{
+  font-size: 10px;
+}
+
+.team-section{
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.team-box{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+
+}
+.team-info{
+  color:#b6dcb3 ;
+  font: bold;
+}
+.price-box{
+  border-radius: 10px;
+  background-color: #A368E0;
+  text-align: end;
+  width: 100%;
+  color: black;
+  font-size: 31px;
+  font: bold;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.membership-details{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.membership-contant{
+  height: 190px;
+  background-color: #b6dcb3;
+  border-radius: 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: 100;
+  padding: 5px;
+  overflow: hidden;
+  /* overflow: auto; */
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 992px) {
+  .hero > div {
+    height: 50vh;
+  }
+
+  .right-side {
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .right-side {
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .right-side {
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+  .right-side {
+    padding: 5px 15px;
+  }
+}
