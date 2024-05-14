@@ -1,5 +1,6 @@
 * {
   font-family: "Space Grotesk", sans-serif;
+
 }
 
 .hero > div {
@@ -74,7 +75,7 @@
   font: bold;
 }
 .membership-tool--body{
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
   color: #b6dcb3;
   display: flex;
   flex-direction: column;
@@ -93,6 +94,7 @@
   color: black;
   border-radius: 10px;
   padding: 1px 10px;
+  cursor: pointer;
 }
 
 
@@ -173,6 +175,22 @@
   /* overflow: auto; */
 }
 
+
+.membership-box{
+  height: 504px;
+  width: 499px;
+  padding: 5px ;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.membership-title{
+  font-size: 38px;
+  padding-top: 20px;
+}
 
 
 @keyframes scroll {
