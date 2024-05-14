@@ -1,6 +1,5 @@
 * {
   font-family: "Space Grotesk", sans-serif;
-
 }
 
 .hero > div {
@@ -74,7 +73,7 @@
   font-size: 20px;
   font: bold;
 }
-.membership-tool--body{
+.membership-tool--body {
   /* background-color: #fafafa; */
   color: #b6dcb3;
   display: flex;
@@ -88,7 +87,9 @@
   padding: 10px;
   height: 79.42px;
 }
-.membership-btn-solo, .membership-btn-team,.membership-btn-remote {
+.membership-btn-solo,
+.membership-btn-team,
+.membership-btn-remote {
   background-color: #b6dcb3;
   border: 1px solid black;
   color: black;
@@ -97,11 +98,9 @@
   cursor: pointer;
 }
 
-
-.active-tab{
+.active-tab {
   background-color: #222b32;
   color: white;
-
 }
 
 .membership-hero {
@@ -110,44 +109,42 @@
   background-color: #b6dcb3;
   color: black;
   border-radius: 10px;
-  padding: 30px 50px; 
+  padding: 30px 50px;
 }
 
-.hero-title{
+.hero-title {
   font-size: 34px;
   font: bold;
   display: flex;
   flex-direction: column;
 }
 
-.hero-text{
+.hero-text {
   font-size: 10px;
 }
 
-.team-section{
+.team-section {
   width: 100%;
   color: white;
   display: flex;
   justify-content: space-between;
   gap: 20px;
-
 }
 
-.team-box{
+.team-box {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 20px;
-
 }
-.team-info{
-  color:#b6dcb3 ;
+.team-info {
+  color: #b6dcb3;
   font: bold;
 }
-.price-box{
+.price-box {
   border-radius: 10px;
-  background-color: #A368E0;
+  background-color: #a368e0;
   text-align: end;
   width: 100%;
   color: black;
@@ -157,13 +154,13 @@
   display: flex;
   flex-direction: column;
 }
-.membership-details{
+.membership-details {
   display: flex;
   flex-direction: column;
   align-items: end;
 }
 
-.membership-contant{
+.membership-contant {
   height: 190px;
   background-color: #b6dcb3;
   border-radius: 10px;
@@ -175,23 +172,32 @@
   /* overflow: auto; */
 }
 
-
-.membership-box{
+.membership-box {
   height: 504px;
   width: 499px;
-  padding: 5px ;
+  padding: 10px;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
-.membership-title{
+.membership-title {
   font-size: 38px;
-  padding-top: 20px;
+  padding-top: 50px;
+  position: relative;
 }
 
+.membership-title-icon1 {
+  position: absolute;
+  top: 30px;
+  left: -13px;
+}
+.membership-title-icon1 {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+}
 
 @keyframes scroll {
   0% {
